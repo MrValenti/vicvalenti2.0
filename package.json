@@ -1,7 +1,7 @@
 {
   "name": "vicvalenti",
   "version": "0.1.0",
-  "home": "https://wwww.vicvalenti.co.za",
+  "home": "https://www.vicvalenti.co.za",
   "private": true,
   "dependencies": {
     "@mui/material": "^5.10.4",
