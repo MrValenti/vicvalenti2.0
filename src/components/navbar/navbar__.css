@@ -1,0 +1,60 @@
+.vic1__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.vic1__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.vic1__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.vic1__navbar-links_logo img {
+    width: 62px;
+    height: auto;
+}
+
+.vic1__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.vic1__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.vic1__navbar-links_container p,
+.vic1__navbar-sign p,
+.vic1__navbar-menu_container p {
+    color:black;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.vic1__navbar-sign button,
+.vic1__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    background : #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+} 

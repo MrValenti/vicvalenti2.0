@@ -1,0 +1,126 @@
+.vic1__whatvic {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    /* background: var(--color-footer); */
+
+    background: rgb(39, 39, 39);
+
+/*     
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+   
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%); */
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.vic1__whatvic-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.vic1__whatvic-feature .vic1__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.vic1__whatvic-feature .vic1__features-container_feature-text {
+    max-width: 700px;
+}
+
+.vic1__whatvic-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.vic1__whatvic-heading h1 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight:400;
+    font-family: var(--font-family);
+    max-width: 510px;
+    color: gold;
+}
+
+.vic1__whatvic-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.vic1__whatvic-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.vic1__whatvic-container .vic1__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.vic1__whatvic-container .vic1__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .vic1__whatvic-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .vic1__whatvic-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .vic1__whatvic-feature .vic1__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .vic1__whatvic-feature .vic1__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .vic1__whatvic-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .vic1__whatvic-container .vic1__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
